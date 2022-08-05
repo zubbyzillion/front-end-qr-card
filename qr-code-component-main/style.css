@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    width: auto;
+}
+
+/* Sets the background for the card and sets it to the center of the page*/
+
+.container {
+    display: block;
+    margin: 15px auto;
+    width: 420px;
+    height: 600px;
+    /* padding: 30px; */
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* Sets the width containing the card content */
+
+.inner-container {
+    height: 580px;
+    width: 410px;
+    padding: 20px 5px;
+    margin: 0 auto;
+}
+
+/* Sets the container for the image box and aligns to center */
+
+.image-card {
+    display: block;
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+/* Sets the height and width of the image */
+
+.image-card img {
+    width: 360px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+/* Gives a defined width for the box containing the card details and thus aligns to the center of the inner container*/
+
+.card-details {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Defines the font size, font-family, color and on...*/
+
+.card-details .card-header {
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    margin: 25px 5px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+/* Defines the  paragraph structure and aligns to the inner container */
+
+.card-paragraph {
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+}
+
+/* Gives styling to the paragraph details*/
+
+.card-paragraph, p .card-content p{
+    line-height: 1;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 20px;
+}
+
+/* //Challenege task from Frontendmentors.io
+//Front-end Developer - Beluonwu-Ogbo Nzubechukwu .P */
